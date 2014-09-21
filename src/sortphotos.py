@@ -258,7 +258,7 @@ if __name__ == '__main__':
     parser.add_argument('src_dir', type=str, help='source directory (searched recursively)')
     parser.add_argument('dest_dir', type=str, help='destination directory')
     parser.add_argument('-m', '--move', action='store_true', help='move files instead of copy')
-    parser.add_argument('-s', '--sort', type=str, default='%Y/%m-%b',
+    parser.add_argument('-s', '--sort', type=str, default='%Y/%m-%B/%d',
                         help="choose destination folder structure using datetime format \n\
 https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior. \n\
 Use forward slashes / to indicate subdirectory(ies) (independent of your OS convention). \n\
